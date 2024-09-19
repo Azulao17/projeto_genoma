@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <title>Invasão Genoma</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Booom, uma bomba explode muito distante, porém seu estrondo ensurdecedor te acorda.<br> Decide olhar?<br>Escolha:</p>
+            <button class="btn-proximo" data-proximo="1">SIM</button>
+            <button class="btn-proximo" data-proximo="2">NÃO</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você levanta e vai até a janela. No caminho, você se sente estranho e com mal-estar. Olhando pela janela, não há ninguém na rua, carros estacionados mas sem motoristas.<br>
+            Mesmo com um clima sinistro e um mal pressentimento, você decide ir ao trabalho. No caminho, nota uma criança do outro lado da rua, com todas as suas roupas ensanguentadas.<br>Decide ajudá-la?</p>
+            <button class="btn-proximo" data-proximo="3">SIM</button>
+            <button class="btn-proximo" data-proximo="4">NÃO</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você decide ligar a TV. Todos os canais estão transmitindo alertas nacionais e solicitam evacuação imediata. Você decide seguir as instruções do alerta ou seguir seu dia normalmente?</p>
+            <button class="btn-proximo" data-proximo="5">Seguir o alerta</button>
+            <button class="btn-proximo" data-proximo="6">Seguir meu dia</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você se aproxima da criança e vê um corpo à frente. Com o coração disparado, você pensa que ambos estão feridos. A menina, com a roupa ensanguentada, tenta te morder. Você decide chutá-la e fugir ou só correr?</p>
+            <button class="btn-proximo" data-proximo="7">Chutar e fugir</button>
+            <button class="btn-proximo" data-proximo="8">Só correr</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Distraído com a criança, você perde o controle do carro e bate em uma árvore. Cercado por zumbis que se aproximam, você tenta sair do carro, mas é tarde demais. Você não sobreviveu.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você seguiu o alerta, foi para a área de evacuação e conseguiu se salvar. Parabéns, você sobreviveu ao apocalipse!</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você ignorou o alerta e seguiu com seu dia, mas logo foi pego por uma explosão devastadora. Você não sobreviveu.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você correu sem pensar, mas infelizmente a criança te alcançou e te mordeu. Em poucos minutos, você sentiu seu corpo se transformar... Você não sobreviveu.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+        <!-- Passo 7: Ligar para o tio -->
+        <div class="passo" id="passo-7">
+            <p>Você volta para casa e liga para os seus parentes. Apenas seu tio atende, e ele está em perigo, precisando de ajuda.<br>
+            Você decide ir ajudá-lo ou ficar em casa?</p>
+            <button class="btn-proximo" data-proximo="9">Ajudar o tio</button>
+            <button class="btn-proximo" data-proximo="10">Ficar em casa</button>
+        </div>
+
+        <!-- Passo 9: Ajudar o tio e sobreviver -->
+        <div class="passo" id="passo-9">
+            <p>Você decide ajudar seu tio. Juntos, vocês conseguem escapar para um local seguro. Parabéns, você sobreviveu!</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+        <!-- Passo 10: Morte em casa -->
+        <div class="passo" id="passo-10">
+            <p>Você decide ficar em casa. No entanto, os zumbis logo invadem sua residência. Você não sobreviveu.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

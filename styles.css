@@ -1,0 +1,44 @@
+body {
+  background-image: url('cenario.png'); /* Adiciona a imagem de fundo */
+  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  margin: 0;
+}
+
+button {
+  background-color: #64A712;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo { 
+  display: none;
+}
+
+.passo.ativo {
+  display:block;
+}
+
+main {
+  text-align: center;
+  max-width: 90%;
+}
+
+
+
+#passo-5, #passo-9 {
+  background-color: green;
+  color: white;
+}
+
+#passo-6, #passo-8, #passo-4, #passo-10  {
+  background-color: red;
+  color: white;
+}
